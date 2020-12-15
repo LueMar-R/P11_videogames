@@ -6,7 +6,8 @@ Analyzes sales data from more than 16,500 games
 Source sur [Kaggle](https://www.kaggle.com/gregorut/videogamesales)
 
 __Infos générales sur la table :__
-`
+
+```
 RangeIndex: 16598 entries, 0 to 16597
 Data columns (total 11 columns):
  #   Column        Non-Null Count  Dtype  
@@ -23,7 +24,8 @@ Data columns (total 11 columns):
  9   Other_Sales   16598 non-null  float64
  10  Global_Sales  16598 non-null  float64
 dtypes: float64(6), int64(1), object(4)
-`
+```
+
 __Prétraitement des données :__
   - traitement des valeurs manquantes (remplacement pas "Unknown" pour _Publisher_ et suppression des lignes concernées pour _Year_ (soit 1.6% des entrées supprimées)
   - modification du format de _Year_ en 'int'
