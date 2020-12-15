@@ -34,6 +34,13 @@ __Prétraitement des données :__
 
 Voir le code python du traitement des données dans le notebook en [annexe 1](https://github.com/LueMar-R/P11_videogames/blob/main/Annexes/Annexe1_preparation_donnees.ipynb)
 
-On obtient 4 fichiers csv : la table principale des ventes et les tables Genre, Platform et Publisher
+On obtient 4 fichiers csv : la table principale des ventes et les tables Genre, Platform et Publisher.
+
+__Création de la base de donnée__
+
+A partir des données prétraitées, on crée la base de données MySQL. 
+
+Voir le fichier SQL [vgsales1.sql](vgsales.sql).
+
 
 
