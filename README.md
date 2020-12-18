@@ -42,6 +42,10 @@ A partir des données prétraitées, on crée la base de données MySQL.
 
 Voir le fichier SQL [vgsales1.sql](vgsales.sql).
 
+## Visualisation de la base de données
+
+L'ensemble des vues et procédures stockées créées figurent sur le fichier SQL [vgsales1.sql](vgsales.sql).
+
 ## Analyse
 
 On a ensuite réalisé l'analyse de ces données. Voir le notebook ["Analyse Statistique"](Analyse_statistique.ipynb)
