@@ -42,9 +42,12 @@ A partir des données prétraitées, on crée la base de données MySQL.
 
 Voir le fichier SQL [vgsales1.sql](vgsales.sql).
 
-## Visualisation de la base de données
+## Visualisation de la base de données, connexion en Python
 
 L'ensemble des vues et procédures stockées créées figurent sur le fichier SQL [vgsales1.sql](vgsales.sql).
+
+Le fichier python ("data_base")[data_base.py] contient une classe qui réalise la connection à la base de données. Cette classe comporte les méthodes qui appellent les procédures stockées réalisées.
+
 
 ## Analyse
 
