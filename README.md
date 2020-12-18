@@ -32,7 +32,7 @@ __Prétraitement des données :__
   - création de 3 tables intermédiaires pour les données qualitatives suivantes : Genre (12 valeurs uniques), Platform (31) et Publisher (578)
   - export des données prétraitées en csv.
 
-Voir le code python du traitement des données dans le notebook en [annexe 1](https://github.com/LueMar-R/P11_videogames/blob/main/Annexes/Annexe1_preparation_donnees.ipynb)
+Voir le code python du traitement des données dans le notebook de présentation ["Préparation des données"](Préparation des données.ipynb).
 
 On obtient 4 fichiers csv : la table principale des ventes et les tables Genre, Platform et Publisher.
 
@@ -42,6 +42,9 @@ A partir des données prétraitées, on crée la base de données MySQL.
 
 Voir le fichier SQL [vgsales1.sql](vgsales.sql).
 
-## 
+## Analyse
+
+On a ensuite réalisé l'analyse de ces données. Voir le notebook ["Analyse Statistique"](Analyse_statistique.ipynb)
+
 
 
