@@ -32,7 +32,7 @@ __Prétraitement des données :__
   - création de 3 tables intermédiaires pour les données qualitatives suivantes : Genre (12 valeurs uniques), Platform (31) et Publisher (578)
   - export des données prétraitées en csv.
 
-Voir le code python du traitement des données dans le notebook de présentation ["Préparation des données"](Préparationdesdonnées.ipynb).
+Voir le code python du traitement des données dans le notebook de présentation ["Préparation des données"](Preparation_des_donnees.ipynb).
 
 On obtient 4 fichiers csv : la table principale des ventes et les tables Genre, Platform et Publisher.
 
